@@ -1,0 +1,129 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+body{ 
+    margin-top:0;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+#header {
+    position:fixed;
+    height: 69 px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    z-index: 1;
+    
+}
+#logo {
+    width: auto;
+    height: 50px;
+    padding-left: 10px;
+}
+nav {
+    flex-grow: 1;
+    text-align: right;
+    display: block;
+}
+nav span {
+    padding: 20px 10px;
+    margin: auto;
+    display: inline-block;
+}
+a {
+    text-decoration: underline;
+    cursor: pointer
+}
+
+#main {
+    width: 1200px;
+    padding-top: 50px;
+    margin: auto;
+}
+/* Mission  */
+#mission {
+    background-image: url(/Resources/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px
+}
+#mission #content {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+/* Featured Tea of the Month */
+img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    display: block;
+  }
+  
+  h4 {
+    font-weight: bold;
+    padding: 5px;
+    display: block;
+  }
+  h2 {
+    
+    padding: 5px;
+    display: block;
+    font-size: larger;
+  }
+  
+  .item {
+    padding: 5px;
+  }
+  
+  #teaMonth {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+/* Locations */
+  #locations {
+      background-image: url("/Resources/img-locations-background.jpg");
+      height: 500px;
+    text-align: center;
+      padding-top: 70px;
+    
+  }
+  #locations h2 {
+      background-color: transparent;
+      font-size: larger;
+      font-weight: bold;
+      display: block;
+  }
+  h3 {
+      display: block;
+      padding: 5px;
+  }
+  .locationbox {
+      width: 300px;
+      margin: 15px;
+
+      opacity: 1;
+      border: rgb(143, 143, 143) solid 5px;
+
+  }
+
+  /* Contact Info */
+  #contact {
+      text-align: center;
+  }
+
+  footer {
+      margin-left:20px;
+  }
